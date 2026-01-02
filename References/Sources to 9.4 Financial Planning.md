@@ -14,8 +14,8 @@ Office space Calculation →https://www.miete-aktuell.de/immobilienpreise-quadra
 
 Salaries:
 
-  https://www.salaryexpert.com/salary/job/marketing-administrator/germany/munich (entry level - **30.000€ yearly**)
+https://www.salaryexpert.com/salary/job/marketing-administrator/germany/munich (entry level - **30.000€ yearly**)
 
-  Working student salaries (average of **16,50€/hour**) → https://www.campusjaeger.de/werkstudent/muenchen/marketing
+Working student salaries (average of **16,50€/hour**) → https://www.campusjaeger.de/werkstudent/muenchen/marketing
 
-  Working Student Softwareengeneering (average of 17€/hour) → https://www.glassdoor.de/Salaries/munich-werkstudent-softwareentwicklung-salary-SRCH_IL.0,6_IM1053_KO7,38.htm?countryRedirect=true
+Working Student Softwareengeneering (average of 17€/hour) → https://www.glassdoor.de/Salaries/munich-werkstudent-softwareentwicklung-salary-SRCH_IL.0,6_IM1053_KO7,38.htm?countryRedirect=true
