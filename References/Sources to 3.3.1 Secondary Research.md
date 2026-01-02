@@ -12,3 +12,5 @@ Konsumverhalten nach Corona aus?, ifo Schnelldienst, Nr. 76, Pages 51-56
 Statista (2025): Statistik-Report zum Thema Gastronomie, via: https://de.statista.com/statistik/studie/id/6990/dokument/gastronomie-statista-dossier/, last opened: 15.12.2025
 
 DEHOGA Bayern (2025): Gastgewerbe in Bayern kämpft weiter mit Umsatzeinbußen und Kostensteigerungen, via: https://www.dehoga-bayern.de/aktuelles/presse/pressemitteilungen/pressedetail/news/gastgewerbe-in-bayern-kaempft-weiter-mit-umsatzeinbussen-und-kostensteigerungen/, last opened 15.12.2025
+
+Author: Chiara Martinetto
