@@ -1,6 +1,6 @@
 ## 🍽️ Local Table  - Final Documentation  
 
-📄 Final Report Overview
+## 📄 Final Report Overview
 
 Welcome to the final documentation for Sponti by Local Table. This Wiki [Final Report](https://github.com/Real-Project-2025-2026/deliverables-real-project-localtable/wiki/Final-Report) serves as the comprehensive narrative of our project, detailing the transition from initial problem identification in Munich's gastronomy sector to a validated digital solution.
 
