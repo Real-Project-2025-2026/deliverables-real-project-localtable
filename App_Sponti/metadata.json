@@ -1,0 +1,8 @@
+{
+  "name": "Sponti",
+  "description": "Real-time flash deals connecting local restaurants with customers to fill empty tables.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

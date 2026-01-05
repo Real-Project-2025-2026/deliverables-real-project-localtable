@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Sponti - Cyber Glow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <style>
+      :root {
+        /* Figma Design Tokens */
+        --blackblack-100: rgba(247, 241, 252, 1);
+        --blackblack-200: rgba(237, 222, 248, 1);
+        --blackblack-300: rgba(222, 197, 243, 1);
+        --blackblack-400: rgba(204, 165, 236, 1);
+        --blackblack-50: rgba(253, 251, 254, 1);
+        --blackblack-500: rgba(181, 125, 227, 1);
+        --blackblack-600: rgba(155, 78, 217, 1);
+        --blackblack-700: rgba(122, 40, 189, 1);
+        --blackblack-800: rgba(69, 23, 108, 1);
+        --blackblack-900: rgba(38, 12, 58, 1);
+        --blackblack-950: rgba(27, 9, 42, 1);
+        
+        --purplepurple-100: rgba(240, 240, 240, 1);
+        --purplepurple-200: rgba(220, 220, 220, 1);
+        --purplepurple-300: rgba(193, 193, 193, 1);
+        --purplepurple-400: rgba(158, 158, 158, 1);
+        --purplepurple-500: rgba(116, 116, 116, 1);
+        --purplepurple-600: rgba(66, 66, 66, 1);
+        --purplepurple-700: rgba(8, 8, 8, 1);
+        --purplepurple-800: rgba(3, 3, 3, 1);
+        --purplepurple-900: rgba(1, 1, 1, 1);
+        --purplepurple-950: rgba(0, 0, 0, 1);
+
+        --container-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.1), 7px 8px 11px 0px rgba(0, 0, 0, 0.09), 15px 19px 15px 0px rgba(0, 0, 0, 0.05), 28px 34px 17px 0px rgba(0, 0, 0, 0.01), 43px 53px 19px 0px rgba(0, 0, 0, 0);
+        --shadow-blur-sm: 0px 10px 10px 0px rgba(0, 0, 0, 0.1), 0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(0, 0, 0, 0.05);
+        
+        --font-body: 'SF Pro Text', 'Inter', sans-serif;
+        --font-sf: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      body { font-family: var(--font-body); }
+      
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      
+      /* Glassmorphism Utilities */
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .glass-high {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      }
+
+      .tab-bar-glass {
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(15px);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.01) 100%);
+      }
+      
+      /* Claymorphism for Categories */
+      .clay-category {
+        background: transparent;
+        box-shadow: 
+            43px 53px 19px 0 rgba(0, 0, 0, 0.00), 
+            28px 34px 17px 0 rgba(0, 0, 0, 0.01), 
+            15px 19px 15px 0 rgba(0, 0, 0, 0.05), 
+            7px 8px 11px 0 rgba(0, 0, 0, 0.09), 
+            2px 2px 6px 0 rgba(0, 0, 0, 0.10);
+      }
+      
+      .hero-card-gradient {
+         background: linear-gradient(111deg, rgba(255, 32, 32, 0.1) 0%, rgba(239, 50, 95, 0.1) 49.15%, rgba(89, 36, 138, 0.4) 100%);
+         backdrop-filter: blur(40px);
+      }
+
+      /* Animations */
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+        100% { transform: translateY(0px); }
+      }
+      .animate-float {
+        animation: float 4s ease-in-out infinite;
+      }
+      
+      /* Leaflet Custom Overrides */
+      .leaflet-container {
+        background: #0b1224 !important;
+        font-family: var(--font-sf) !important;
+      }
+      .leaflet-control-attribution {
+        display: none !important;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              blackblack: {
+                100: 'var(--blackblack-100)',
+                200: 'var(--blackblack-200)',
+                300: 'var(--blackblack-300)',
+                400: 'var(--blackblack-400)',
+                50: 'var(--blackblack-50)',
+                500: 'var(--blackblack-500)',
+                600: 'var(--blackblack-600)',
+                700: 'var(--blackblack-700)',
+                800: 'var(--blackblack-800)',
+                900: 'var(--blackblack-900)',
+                950: 'var(--blackblack-950)',
+              },
+              purplepurple: {
+                100: 'var(--purplepurple-100)',
+                200: 'var(--purplepurple-200)',
+                300: 'var(--purplepurple-300)',
+                400: 'var(--purplepurple-400)',
+                50: 'var(--purplepurple-50)',
+                500: 'var(--purplepurple-500)',
+                600: 'var(--purplepurple-600)',
+                700: 'var(--purplepurple-700)',
+                800: 'var(--purplepurple-800)',
+                900: 'var(--purplepurple-900)',
+                950: 'var(--purplepurple-950)',
+              },
+              neon: {
+                blue: '#4C7AF4',
+                violet: '#A37CFF',
+                pink: '#ff00ff'
+              }
+            },
+            fontFamily: {
+              sf: ['SF Pro Text', 'Inter', 'sans-serif'],
+            },
+            boxShadow: {
+              'container': 'var(--container-shadow)',
+              'blur-sm': 'var(--shadow-blur-sm)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0",
+    "react-qr-code": "https://aistudiocdn.com/react-qr-code@^2.0.18",
+    "leaflet": "https://esm.sh/leaflet@1.9.4",
+    "react-leaflet": "https://esm.sh/react-leaflet@4.2.1?external=react,react-dom,leaflet",
+    "html5-qrcode": "https://esm.sh/html5-qrcode"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-[#0b1224] text-white min-h-screen flex items-center justify-center overflow-hidden">
+    <div id="root" class="w-full h-full flex justify-center"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
