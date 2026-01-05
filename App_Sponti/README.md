@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./App_Sponti/Banner.png" alt="Sponti Banner" width="100%" />
+  <img src="https://github.com/Real-Project-2025-2026/deliverables-real-project-localtable/blob/main/App_Sponti/Banner.png?raw=true" alt="Sponti Banner" width="100%" />
 </div>
 
 Real-time flash deals connecting local restaurants with customers to fill empty tables.
