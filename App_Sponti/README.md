@@ -1,20 +1,10 @@
+<div align="center"> <img width="1200" height="475" alt="Sponti Banner" src="[https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6](https://github.com/hossamezzat17/Sponti/blob/e41c0dff4f12b3340354544c0eeee4a1f5631153/Banner.png)" /> </div>
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+Real-time flash deals connecting local restaurants with customers to fill empty tables.
+
 </div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1jlfCx9KzDLH_kMwJrd_5zIFtm7VgHZ0y
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+About Sponti
+Sponti is a location-based application designed to bridge the gap between hungry customers and restaurants with surplus capacity. By leveraging real-time geolocation and AI-driven insights, restaurants can generate "flash deals" to attract nearby customers instantly.
