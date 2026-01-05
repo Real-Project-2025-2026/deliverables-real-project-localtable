@@ -2,7 +2,7 @@
 
 Documentation overview and repository structure
 
-Author of the overview: Lara Baumgartner
+Author of this overview: Lara Baumgartner
 
 ---
 
