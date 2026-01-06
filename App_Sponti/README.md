@@ -111,7 +111,7 @@ The app will be available at https://sponti-879131163810.us-west1.run.app/
 
 
 Thanks for giving our App a try! 
---
+
 
 Best Regards!  
 
