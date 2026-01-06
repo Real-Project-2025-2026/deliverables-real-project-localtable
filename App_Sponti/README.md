@@ -12,23 +12,21 @@ Online version of the app: https://sponti-879131163810.us-west1.run.app/
 
 In the restaurant industry, an empty table is lost revenue that can never be recovered. **Sponti** provides an infrastructure where owners can launch flash deals in seconds. Customers receive push notifications and see live pins on a map, encouraging them to visit *now*.
 
-The platform uses Gemini API to help owners craft the perfect deal based on their current situation (e.g., "It's raining and I have 20 portions of soup left") and provides customers with an AI search tool to find exactly the best deal tailored to their need.
+The platform uses Gemini API to help owners craft the perfect deal based on their current situation (e.g., "It's raining and I have 20 portions of soup left").
 
 ---
 
 ##  Key Features
 
 ###  For Customers
-- ** Live Discovery Map:** Interactive Leaflet-based map with custom "Glow Pins" for active flash deals.
-- ** AI Food Concierge:** A Gemini-powered chat assistant that recommends restaurants based on mood, craving, and live discounts.
-- ** Flash Claim System:** One-tap deal claiming with dynamic countdown timers and automatic QR code generation.
-- ** Intelligent Categories:** Claymorphic category selection for rapid browsing of Pizza, Sushi, Burgers, and more.
+- ** Live Discovery Map:** Interactive map with custom Pins for active flash deals in your city.
+- ** Categories:** Category selection for  browsing what you crave.
 - ** Digital Wallet & Favorites:** Securely manage payment methods and keep track of top-rated local spots.
 
 ###  For Restaurant Owners
 - ** Performance Dashboard:** Real-time tracking of redemptions, revenue analytics, and weekly activity charts via Recharts.
 - ** Magic Deal Creator:** Describe a situation in plain English, and Gemini AI generates the title, description, and discount logic automatically.
-- ** QR Scanner:** Integrated `html5-qrcode` scanner with environment-sensing camera controls to validate customer deals instantly.
+- ** QR Scanner:** Integrated to validate customer deals instantly.
 - ** Revenue Insights:** Visualized data showing peaks in customer activity to optimize staffing.
 
 ---
@@ -108,12 +106,9 @@ The app will be available at https://sponti-879131163810.us-west1.run.app/
 ---
 
 ##  Roadmap
-- [ ] **Real-time Notifications:** Integrate WebSockets for instant deal alerts.
-- [ ] **Staff Accounts:** Allow owners to create sub-accounts for waiters to scan codes.
-- [ ] **Image Generation:** Use Imagen 3 to generate appetizing deal banners automatically.
-- [ ] **Multi-Language:** Add support for German and Italian localizations.
-
+- [ ] **Online Payment Integration** Increase trust and reliability for platform economics
+- [ ] **AI-powered recommendations** help users find the most suitable offer based on personal needs(e.g., “healthy after gym,” “cheap lunch nearby,” “hangover food”).
 --
-Thanks for giving our app a try! 
+Thanks for giving our App a try! 
 BR 
 Hossam
