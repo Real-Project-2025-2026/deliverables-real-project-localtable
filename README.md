@@ -14,10 +14,11 @@ by Lara Baumgartner
 
 ## Team
 
-- Ali Hossam: 01054322
-- Baumgartner Lara: 66392322
-- Erdogan Muhammed Emin: 34360622
-- Martinetto Chiara: 01234567 
+- Ali Hossam (FK07&10): 01054322
+- Baumgartner Lara (FK10): 66392322
+- Erdogan Muhammed Emin (FK14): 34360622
+- Martinetto Chiara (FK14): 41056222
+- (Jurczyk Michael(FK07&10): 01445822)-> He has left the group
 
 ---
 
