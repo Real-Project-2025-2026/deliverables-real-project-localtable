@@ -6,15 +6,13 @@
 
 Online version of the app: https://sponti-879131163810.us-west1.run.app/
 
-**Sponti** is a hyper-local, real-time marketplace that bridges the gap between restaurant owners with empty tables and hungry customers looking for spontaneous, exclusive deals. Using a high-octane "Cyber Glow" aesthetic, Sponti turns surplus inventory into instant revenue.
-
 ---
 
 ## About the Project
 
-In the restaurant industry, an empty table is lost revenue that can never be recovered. **Sponti** provides a "Flash Deal" infrastructure where owners can launch flash deals in seconds. Customers receive push notifications (simulated) and see live pins on a map, encouraging them to visit *now*.
+In the restaurant industry, an empty table is lost revenue that can never be recovered. **Sponti** provides an infrastructure where owners can launch flash deals in seconds. Customers receive push notifications and see live pins on a map, encouraging them to visit *now*.
 
-The platform used Gemini API to help owners craft the perfect deal based on their current situation (e.g., "It's raining and I have 20 portions of soup left") and provides customers with an AI search tool to find exactly the best deal tailored to their need.
+The platform uses Gemini API to help owners craft the perfect deal based on their current situation (e.g., "It's raining and I have 20 portions of soup left") and provides customers with an AI search tool to find exactly the best deal tailored to their need.
 
 ---
 
