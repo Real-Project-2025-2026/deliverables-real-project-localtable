@@ -114,6 +114,5 @@ Thanks for giving our App a try!
 --
 
 Best Regards!  
---
-
-Hossam
+-
+Hossam Ali
