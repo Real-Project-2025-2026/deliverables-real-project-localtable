@@ -47,7 +47,7 @@ The platform uses Gemini API to help owners craft the perfect deal based on thei
 ### Prerequisites
 *   **Node.js:** v18.0.0 or higher
 *   **NPM:** v9.0.0 or higher
-*   
+  
 ### Installation
 1.  **Clone the repository**
     ```bash
@@ -114,5 +114,5 @@ Thanks for giving our App a try!
 --
 
 Best Regards!  
--
+
 Hossam Ali
