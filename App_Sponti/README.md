@@ -108,7 +108,9 @@ The app will be available at https://sponti-879131163810.us-west1.run.app/
 ##  Roadmap
 - [ ] **Online Payment Integration** Increase trust and reliability for platform economics
 - [ ] **AI-powered recommendations** help users find the most suitable offer based on personal needs(e.g., “healthy after gym,” “cheap lunch nearby,” “hangover food”).
+
 --
+
 Thanks for giving our App a try! 
 BR 
 Hossam
