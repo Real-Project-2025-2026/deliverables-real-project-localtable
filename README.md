@@ -8,7 +8,7 @@ While this page contains our final analysis and business strategy, our GitHub Re
 
 Documentation overview and repository structure
 
-Author of this overview: Lara Baumgartner
+by Lara Baumgartner
 
 ---
 
