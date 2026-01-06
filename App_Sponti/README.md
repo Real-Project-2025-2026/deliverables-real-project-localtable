@@ -44,36 +44,7 @@ The platform uses Gemini API to help owners craft the perfect deal based on thei
 
 ##  Getting Started
 
-### Prerequisites
-*   **Node.js:** v18.0.0 or higher
-*   **NPM:** v9.0.0 or higher
-  
-### Installation
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/your-username/sponti.git
-    cd sponti
-    ```
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-### Configuration
-Create a `.env` file in the root directory:
-```env
-API_KEY=your_google_gemini_api_key_here
-```
-
----
-
-## 🖥 Usage
-
-To run the development server:
-```bash
-npm start
-```
-The app will be available at https://sponti-879131163810.us-west1.run.app/
+The app is available at https://sponti-879131163810.us-west1.run.app/
 
 ### Navigation Guide
 1.  **Select Role:** On the landing screen, choose **Customer Access** or **Owner Portal**.
