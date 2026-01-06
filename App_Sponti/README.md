@@ -19,15 +19,15 @@ The platform uses Gemini API to help owners craft the perfect deal based on thei
 ##  Key Features
 
 ###  For Customers
-- ** Live Discovery Map:** Interactive map with custom Pins for active flash deals in your city.
-- ** Categories:** Category selection for  browsing what you crave.
-- ** Digital Wallet & Favorites:** Securely manage payment methods and keep track of top-rated local spots.
+-  Live Discovery Map: Interactive map with custom Pins for active flash deals in your city.
+-  Categories: Category selection for  browsing what you crave.
+-  Digital Wallet & Favorites: Securely manage payment methods and keep track of top-rated local spots.
 
 ###  For Restaurant Owners
-- ** Performance Dashboard:** Real-time tracking of redemptions, revenue analytics, and weekly activity charts via Recharts.
-- ** Magic Deal Creator:** Describe a situation in plain English, and Gemini AI generates the title, description, and discount logic automatically.
-- ** QR Scanner:** Integrated to validate customer deals instantly.
-- ** Revenue Insights:** Visualized data showing peaks in customer activity to optimize staffing.
+-  Performance Dashboard: Real-time tracking of redemptions, revenue analytics, and weekly activity charts via Recharts.
+-  Magic Deal Creator: Describe a situation in plain English, and Gemini AI generates the title, description, and discount logic automatically.
+-  QR Scanner: Integrated to validate customer deals instantly.
+-  Revenue Insights: Visualized data showing peaks in customer activity to optimize staffing.
 
 ---
 
