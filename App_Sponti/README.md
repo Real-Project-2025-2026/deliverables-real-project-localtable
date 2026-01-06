@@ -12,9 +12,9 @@ Online version of the app: https://sponti-879131163810.us-west1.run.app/
 
 ## About the Project
 
-In the restaurant industry, an empty table is lost revenue that can never be recovered. **Sponti** provides a "Flash Deal" infrastructure where owners can launch time-sensitive offers in seconds. Customers receive push notifications (simulated) and see live pins on a map, encouraging them to visit *now*.
+In the restaurant industry, an empty table is lost revenue that can never be recovered. **Sponti** provides a "Flash Deal" infrastructure where owners can launch flash deals in seconds. Customers receive push notifications (simulated) and see live pins on a map, encouraging them to visit *now*.
 
-The platform leverages **Google Gemini AI** to help owners craft the perfect deal based on their current situation (e.g., "It's raining and I have 20 portions of soup left") and provides customers with an **AI Food Concierge** to find exactly what they're craving.
+The platform used Gemini API to help owners craft the perfect deal based on their current situation (e.g., "It's raining and I have 20 portions of soup left") and provides customers with an AI search tool to find exactly the best deal tailored to their need.
 
 ---
 
@@ -30,7 +30,7 @@ The platform leverages **Google Gemini AI** to help owners craft the perfect dea
 ###  For Restaurant Owners
 - ** Performance Dashboard:** Real-time tracking of redemptions, revenue analytics, and weekly activity charts via Recharts.
 - ** Magic Deal Creator:** Describe a situation in plain English, and Gemini AI generates the title, description, and discount logic automatically.
-- ** Cyber QR Scanner:** Integrated `html5-qrcode` scanner with environment-sensing camera controls to validate customer deals instantly.
+- ** QR Scanner:** Integrated `html5-qrcode` scanner with environment-sensing camera controls to validate customer deals instantly.
 - ** Revenue Insights:** Visualized data showing peaks in customer activity to optimize staffing.
 
 ---
@@ -77,13 +77,13 @@ To run the development server:
 ```bash
 npm start
 ```
-The app will be available at `http://localhost:3000`.
+The app will be available at https://sponti-879131163810.us-west1.run.app/
 
 ### Navigation Guide
 1.  **Select Role:** On the landing screen, choose **Customer Access** or **Owner Portal**.
 2.  **Owner:** Tap the "Create Flash Deal" button. Use the "Magic Creator" to see AI in action.
 3.  **Customer:** Use the Map tab to find glowing pins. Click "Get Offer" to generate a QR code.
-4.  **Redemption:** As an Owner, use the "Scan" tab and point the camera at a Customer's QR code to validate the 47th redemption!
+4.  **Redemption:** As an Owner, use the "Scan" tab and point the camera at a Customer's QR code to validate the deal!
 
 ---
 
