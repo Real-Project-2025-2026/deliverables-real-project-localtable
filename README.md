@@ -84,7 +84,7 @@ The project was structured along clearly defined chapters, with responsibilities
 **Authors:** Chiara Martinetto & Lara Baumgartner  
 
 ### 2. Introduction  
-**Authors:** Chiara Martinetto, Lara Baumgartner, Ali Hossam, Muhammed Emin Erdogan  
+**Authors:** Muhammed Emin Erdogan  
 
 ### 3. Problem Analysis  
 **Authors:** Chiara Martinetto & Lara Baumgartner  
