@@ -81,13 +81,13 @@ It includes materials related to:
 The project was structured along clearly defined chapters, with responsibilities assigned based on individual focus areas. At the same time, differences in motivation and available time among team members influenced the depth of engagement across tasks, while overarching decisions and final alignment were coordinated collaboratively.
 
 ### 1. Executive Summary  
-**Authors:** Chiara Martinetto & Lara Baumgartner  
+**Authors:** Chiara Martinetto & Lara Baumgartner & Hossam Ali
 
 ### 2. Introduction  
 **Authors:** Muhammed Emin Erdogan  
 
 ### 3. Problem Analysis  
-**Authors:** Chiara Martinetto & Lara Baumgartner  
+**Authors:** Chiara Martinetto & Lara Baumgartner & Muhammed Emin Erdogan & Hossam Ali
 
 #### 4.1 Development of Interview Guide for Problem Identification  
 **Author:** Lara Baumgartner  
@@ -117,8 +117,7 @@ The project was structured along clearly defined chapters, with responsibilities
 **Author:** Ali Hossam  
 
 ### 8. Solution Validation  
-**Author:** Muhammed Emin Erdogan  
-
+**Author:** Muhammed Emin Erdogan & Hossam Ali
 ### 9. Business Plan  
 **Authors:** Lara Baumgartner & Chiara Martinetto  
 
@@ -135,13 +134,13 @@ The project was structured along clearly defined chapters, with responsibilities
 **Author:** Chiara Martinetto  
 
 ### 10. Implementation  
-**Author:** Ali Hossam  
+**Author:** Hossam Ali  
 
 ### 11. Critical Reflection  
 **Author:** Lara Baumgartner  
 
 ### 12. Conclusion and Outlook  
-**Authors:** Lara Baumgartner & Chiara Martinetto  
+**Authors:** Lara Baumgartner & Chiara Martinetto & Hossam Ali
 
 
 ---
